@@ -6,6 +6,8 @@ class HandlerGenerator {
 
   login( req, res ) {
     
+    console.log('hasta acá llegamos');
+
     // Extrae el usuario y la contraseña especificados en el cuerpo de la solicitud
     let username = req.body.username;
     let password = req.body.password;
